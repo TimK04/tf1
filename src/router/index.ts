@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
-import ContactsView from "@/views/ContactsView.vue";
+import ContactsView from '@/views/ContactsView.vue';
 import AboutView from '@/views/AboutView.vue';
 
 const router = createRouter({
@@ -20,8 +20,8 @@ const router = createRouter({
       path: '/about',
       name: 'about',
       component: AboutView
-    },
+    }
   ]
-})
+});
 
-export default router
+export default router;
