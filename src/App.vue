@@ -1,10 +1,13 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router';
+import HeaderComponent from '@/components/layout/HeaderComponent.vue';
 </script>
 
 <template>
   <div class="flex flex-col h-screen">
-    <header class="bg-yellow-200">Header</header>
+    <header>
+      <HeaderComponent />
+    </header>
     <main class="flex-grow">
       <RouterView />
     </main>
