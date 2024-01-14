@@ -17,7 +17,7 @@
 
 <style scoped>
 .router-link-active {
-  @apply font-bold bg-white text-red-600 px-2;
+  @apply font-bold bg-white text-red-600 px-2 rounded-2xl;
 }
 </style>
 ```
